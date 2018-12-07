@@ -3,16 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceDog.SQLinq.UnitTest", "src\IceDog.SQLinq.UnitTest\IceDog.SQLinq.UnitTest.csproj", "{004A0112-E816-4ACD-AAD8-7F5F95EFAA29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{004A0112-E816-4ACD-AAD8-7F5F95EFAA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004A0112-E816-4ACD-AAD8-7F5F95EFAA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004A0112-E816-4ACD-AAD8-7F5F95EFAA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004A0112-E816-4ACD-AAD8-7F5F95EFAA29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD710042-A54C-4549-A8E0-C086A5F1E271}
 	EndGlobalSection
 EndGlobal
